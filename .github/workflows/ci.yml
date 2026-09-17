@@ -30,7 +30,7 @@ jobs:
 
 
       - name: Build API Docker image
-        run: docker build -t INSY7314-ICE-TASK_CI/CD-api .
+        run: docker build -t insy7314-ice-task-cicd-api .
 
   client-checks:
     runs-on: ubuntu-latest

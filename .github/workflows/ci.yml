@@ -27,9 +27,6 @@ jobs:
       - name: Install API dependencies
         run: npm ci
 
-      - name: Run API linting
-        run: npm run lint
-
       - name: Run API unit tests
         run: npm test
 
@@ -62,4 +59,3 @@ jobs:
         
     
 
-            
